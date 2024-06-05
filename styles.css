@@ -1,0 +1,42 @@
+.playlist-container {
+    margin: 30px auto;
+    max-width: 400px;
+}
+
+.text-container {
+    margin: 30px auto;
+    max-width: 400px;
+    background-color: #282828;
+    border-radius: 10px;
+}
+
+.text-container p {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: Arial;
+    font-style: bold;
+}
+
+.title {
+    color: white;
+    font-size: large;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.title img {
+    height: 18px;
+}
+
+.subtitle {
+    font-size: medium;
+    padding-bottom: 15px;
+    color: #8f8f8f;
+}
+
+body {
+    background-image: url("./img/beach.jpg");
+    background-position: center;
+}
