@@ -6,6 +6,8 @@
 .text-container {
     margin: 30px auto;
     max-width: 400px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     background-color: #282828;
     border-radius: 10px;
 }
@@ -20,10 +22,11 @@
 .title {
     color: white;
     font-size: large;
-    padding-top: 15px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin: 0;
+
 }
 
 .title img {
@@ -32,8 +35,8 @@
 
 .subtitle {
     font-size: medium;
-    padding-bottom: 15px;
     color: #8f8f8f;
+    margin: 0;
 }
 
 body {
